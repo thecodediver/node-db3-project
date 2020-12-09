@@ -9,6 +9,7 @@ select
 from product
 left join category
   on product.id = category.id
+  
 -- Display the order Id and shipper CompanyName for all orders placed before August 9 2012. Shows 429 records.
 select
   [order].id
